@@ -1,11 +1,19 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main-prints _putchar and is the main function of the programm
- * Return:if zero exit correctly if non-zero, otherwise
+ * main- prints _putchar
+ * Return: if 0 exit properly, non-zero otherwise
  */
 int main(void)
 {
-	printf("_putchar");
-	printf("\n");
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+
 	return (0);
 }
