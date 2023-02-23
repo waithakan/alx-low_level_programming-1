@@ -1,1 +1,1 @@
-deugging of programs
+debugging of programs
