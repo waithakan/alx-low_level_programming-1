@@ -6,9 +6,9 @@
  * Return: number of nodes
  *
  */
-size_t lisint_len(const listint_t *h)
+size_t lisitnt_len(const listint_t *h)
 {
-	size_t num = =0;
+	size_t num == 0;
 
 	while (h)
 	{
