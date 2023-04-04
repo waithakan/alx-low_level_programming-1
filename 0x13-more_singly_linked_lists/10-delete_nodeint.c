@@ -3,7 +3,7 @@
  * delete_nodeint_at_index - deletes a specific node in alist
  * @head: points to the first element of the linked list
  * @index: index of the node to be deleted
- * Return: 1 if success, -1 if fail
+ * Return: 1 if success, -1 if failed
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
