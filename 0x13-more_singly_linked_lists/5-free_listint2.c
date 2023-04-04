@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * free_listint2 - frees alinked list
+ * free_listint2 - free alinked list
  * @head: points to the freed list
  */
 
