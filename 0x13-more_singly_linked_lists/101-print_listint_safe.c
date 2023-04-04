@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * print_listint_safe - prints alinked list
- * safely
+ * safe
  * @head: listof type listint_t to print
  * Return: number of nodes in the list
  */
