@@ -19,5 +19,5 @@ unsigned int binary_to_unit(const char *b)
 			return (0);
 		dec_val = 2 * val + (b[j] - '0');
 	}
-	return dec_(val);
+	return (dec_val);
 }
