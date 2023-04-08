@@ -17,7 +17,7 @@ unsigned int binary_to_unit(const char *b)
 	{
 		if (b[j] < '0' || b[j] > '1')
 			return (0);
-		dec_val = 2 * val + (b[j] - '0');
+		dec_val = 2 * dec_val + (b[j] - '0');
 	}
 	return (dec_val);
 }
