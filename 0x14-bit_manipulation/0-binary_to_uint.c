@@ -8,7 +8,7 @@
 unsigned int binary_to_unit(const char *b)
 {
 	int j;
-	unsigned int val = 0;
+	unsigned int dec_val = 0;
 
 	if (!b)
 		return (0);
@@ -17,7 +17,7 @@ unsigned int binary_to_unit(const char *b)
 	{
 		if (b[j] < '0' || b[j] > '1')
 			return (0);
-		val = 2 * val + (b[j] - '0');
+		dec_val = 2 * val + (b[j] - '0');
 	}
-	return (val);
+	return dec_(val);
 }
